@@ -1,0 +1,13 @@
+# data is fan-made, copyrighted material: never commit it
+data/raw/*
+!data/raw/.gitkeep
+data/*.txt
+work/
+# model artifacts
+*.pt
+*.ckpt
+# python / env
+__pycache__/
+.venv/
+.pytest_cache/
+.env
